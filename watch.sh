@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Usage
-# ./watch.sh $src_code_dir $build_command $kill_command $restart_command
+# ./watch.sh $src_code_dir $build_command $kill_server $start_server
 # ./watch.sh 'src/' 'npm run build' 'killall http-server' 'http-server dist/ &'
 
 eval $4
